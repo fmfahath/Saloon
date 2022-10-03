@@ -14,3 +14,16 @@ body{
     line-height: 1.8;
     background-color: var(--bg1);
 }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
