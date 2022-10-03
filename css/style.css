@@ -17,6 +17,11 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+p{
+    color: white;
 }
 
 img{
@@ -27,3 +32,29 @@ section{
     padding-top: 160px;
     padding-bottom: 160px;
 }
+
+/* Navbar */
+.navbar{
+    background: linear-gradient(to bottom,rgba(21, 24, 40, 1 ),rgba(27, 31, 52, 0.0))
+}
+
+.navbar-brand{
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+.navbar-brand span{
+    font-size: 40px;
+    color: var(--brand);
+}
+
+
+/* Hero */
+
+#hero{
+    background: linear-gradient(to right,rgba(21, 24, 40, 1 ),rgba(27, 31, 52, 0.0)) , url(../img/cover_1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
