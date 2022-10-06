@@ -128,3 +128,35 @@ section{
 #about .signature{
     width: unset;
 }
+
+
+/* service------------------------------------------------------------------------------------- */
+
+/* services - Know More button */
+#services a{
+    color: var(--body);
+    text-decoration: none;
+}
+
+#services a:hover{
+    color: var(--brand);
+}
+
+.link-more{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.icon{
+    transition: all 0.4s ease;
+}
+
+.link-more:hover .icon{
+    transform: translateX(8px);
+}
+
