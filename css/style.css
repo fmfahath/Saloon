@@ -68,7 +68,7 @@ section{
     margin-bottom: 20px;
 }
 
-/* btn */
+/* --------------------------------------btn------------------------------------------ */
 
 .btn{
     padding: 16px 32px;
@@ -148,12 +148,12 @@ section{
 }
 
 /* services - Know More button */
-#services a{
+#services .services_title a{
     color: var(--body);
     text-decoration: none;
 }
 
-#services a:hover{
+#services .services_title a:hover{
     color: var(--brand);
 }
 
@@ -179,4 +179,10 @@ section{
 
 #services .services_title{
     padding: 30px;
+}
+
+/* services - Service button */
+
+#services .services_button{
+    margin: 30px 30px;
 }
