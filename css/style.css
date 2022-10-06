@@ -34,7 +34,7 @@ section{
 }
 
 
-/* Navbar */
+/* ----------------------Navbar---------------------------------------------------------- */
 
 .navbar{
     background: linear-gradient(to bottom,rgba(21, 24, 40, 1 ),rgba(27, 31, 52, 0.0))
@@ -50,7 +50,7 @@ section{
 }
 
 
-/* Hero */
+/* ----------------------------Hero------------------------------------------------------------------------ */
 
 #hero{
     background: linear-gradient(to right,rgba(21, 24, 40, 1 ),rgba(27, 31, 52, 0.0)) , url(../img/cover_1.jpg);
@@ -99,7 +99,7 @@ section{
     /* color: white; */
 }
 
-/* About */
+/* -------------------About----------------------------------------------------------------------------------------- */
 
 #about{
    position: relative;
@@ -130,7 +130,22 @@ section{
 }
 
 
-/* service------------------------------------------------------------------------------------- */
+/* ------------------service------------------------------------------------------------------------------------- */
+
+#services{
+    background-color: var(--bg2);
+}
+
+#services h3{
+    color: var(--brand);
+}
+
+/* services - heding */
+#services .services_heading p{
+    padding: 30px 30px;
+    max-width: 500px;
+    margin: auto;
+}
 
 /* services - Know More button */
 #services a{
@@ -143,7 +158,7 @@ section{
 }
 
 .link-more{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-size: 14px;
     font-weight: 600px;
@@ -160,3 +175,8 @@ section{
     transform: translateX(8px);
 }
 
+/* services - Service title */
+
+#services .services_title{
+    padding: 30px;
+}
